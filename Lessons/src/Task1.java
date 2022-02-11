@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-class TestTask {
-    TestTask() {
+class Task1 {
+    Task1() {
     }
 
     public static void main(String[] args) {
@@ -29,7 +29,6 @@ class TestTask {
                             System.out.println("Это нечетное число! ");
                         }
 
-                        while(true) {
                             while(true) {
                                 System.out.print("Введите букву! ");
                                 character = scanner.next();
@@ -41,7 +40,6 @@ class TestTask {
                                     return;
                                 }
                             }
-                        }
                     }
 
                     System.out.println("Это не целое число! ");
